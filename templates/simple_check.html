@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Чек</title>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 14px; }
+    h1 { text-align: center; margin: 0 0 12px 0; }
+    table { border-collapse: collapse; margin: 0 auto; font-family: Arial, sans-serif; }
+    th, td { border: 1px solid #333; text-align: center; padding: 8px 12px; }
+    th { background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>ЧЕК</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Товар</th>
+        <th>Цена</th>
+        <th>Кол-во</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{ product }}</td>
+        <td>{{ price }}</td>
+        <td>{{ qty }}</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
